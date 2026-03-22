@@ -31,7 +31,6 @@ When a student asks a question, the teacher agent:
 2. Processes the student's question and Retrieves a relevant problem from the question bank
 3. Explains the problem (with answer) to the student
 
-
 ## Personality Profiles
 
 Each student agent is assigned one of five Big Five personality types, which influences its learning style and interaction behavior:
@@ -90,14 +89,12 @@ Three prompt configuration styles are provided:
 | `config_natural.py` | Natural |
 | `config.py` | Explanatory |
 
-
 ## Notebooks
 
 | Notebook | Description |
 |----------|-------------|
 | `runAll.ipynb` | Batch run across all personalities of that topic |
 | `runSingle.ipynb` | Run a single personality on a single topic |
-
 
 ## Configuration
 
