@@ -4,6 +4,8 @@ An agent-based model (ABM) that simulates a classroom environment where student 
 
 The simulation consists of two phases: **learning rounds** and **exam rounds**. All agents study and are tested on the same mathematical topic (e.g., Algebra). Multiple topics are evaluated separately.
 
+![Framework](framework.png)
+
 ### Student Agent — Learning Round
 
 Each round, the student agent chooses one of three actions:
