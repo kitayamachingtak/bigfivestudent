@@ -64,7 +64,7 @@ Each model call consumes one timestamp unit. Since different actions trigger dif
 ---
 ## Dataset
 
-The question bank used in this simulation is sourced from the NuminaMath-CoT dataset:
+The question bank used in this simulation is classified and filtered from the NuminaMath-CoT dataset:
 
 **AI-MO/NuminaMath-CoT**. Numina. Hugging Face Datasets, 2024.
 https://huggingface.co/datasets/AI-MO/NuminaMath-CoT
