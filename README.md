@@ -2,10 +2,6 @@
 
 An agent-based model (ABM) that simulates a classroom environment where student agents with different Big Five personality traits learn mathematics and take exams. Each student agent makes autonomous decisions during learning and exam rounds, while a teacher agent responds to student queries.
 
----
-
-## Overview
-
 The simulation consists of two phases: **learning rounds** and **exam rounds**. All agents study and are tested on the same mathematical topic (e.g., Algebra). Multiple topics are evaluated separately.
 
 ### Student Agent — Learning Round
@@ -33,7 +29,6 @@ When a student asks a question, the teacher agent:
 2. Processes the student's question and Retrieves a relevant problem from the question bank
 3. Explains the problem (with answer) to the student
 
----
 
 ## Personality Profiles
 
@@ -45,7 +40,6 @@ Each student agent is assigned one of five Big Five personality types, which inf
 - **High Agreeableness** — Prioritizes harmony; softens disagreement
 - **High Neuroticism** — Anxious about performance; seeks frequent reassurance
 
----
 
 ## Timestamps
 
@@ -70,7 +64,6 @@ The question bank used in this simulation is classified and filtered from the Nu
 https://huggingface.co/datasets/AI-MO/NuminaMath-CoT
 Licensed under Apache 2.0.
 
----
 ## Exam Topics
 
 Each topic is evaluated independently:
@@ -95,7 +88,6 @@ Three prompt configuration styles are provided:
 | `config_natural.py` | Natural |
 | `config.py` | Explanatory |
 
----
 
 ## Notebooks
 
@@ -104,7 +96,6 @@ Three prompt configuration styles are provided:
 | `runAll.ipynb` | Batch run across all personalities of that topic |
 | `runSingle.ipynb` | Run a single personality on a single topic |
 
----
 
 ## Configuration
 
