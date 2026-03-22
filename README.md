@@ -75,10 +75,10 @@ Licensed under Apache 2.0.
 
 Each topic is evaluated independently:
 
-- Algebra
-- Number Theory
-- Counting and Probability
-- Geometry
+- Algebra: 1,341 Questions
+- Number Theory: 484 Questions
+- Counting and Probability: 547 Questions
+- Geometry: 672 Questions
 
 
 ![Dashboard](gpt_dashboard.png)
