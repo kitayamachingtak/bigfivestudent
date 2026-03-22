@@ -62,7 +62,15 @@ Each model call consumes one timestamp unit. Since different actions trigger dif
 > The number of decision rounds per agent is fixed, but total timestamps vary by strategy.
 
 ---
+## Dataset
 
+The question bank used in this simulation is sourced from the NuminaMath-CoT dataset:
+
+**AI-MO/NuminaMath-CoT**. Numina. Hugging Face Datasets, 2024.
+https://huggingface.co/datasets/AI-MO/NuminaMath-CoT
+Licensed under Apache 2.0.
+
+---
 ## Exam Topics
 
 Each topic is evaluated independently:
