@@ -24,6 +24,8 @@ Each round, the student agent chooses one of three actions:
 |--------|-------|
 | **Recall from Memory** | (1) Decide what to retrieve → (2) Retrieve the most relevant memory → (3) Use recalled memory to answer the question |
 
+Note that the calculated **accuracy** is a very lenient criteria, which could lead to overly high scores. Therefore, we only use the **macro F1** as the final value in our paper.
+
 ### Teacher Agent — Learning Round
 
 When a student asks a question, the teacher agent:
@@ -70,6 +72,7 @@ Each topic is evaluated independently:
 - Counting and Probability
 - Geometry
 
+
 ![Dashboard](gpt_dashboard.png)
 
 ---
@@ -90,7 +93,7 @@ Three prompt configuration styles are provided:
 
 | Notebook | Description |
 |----------|-------------|
-| `runAll.ipynb` | Batch run across all personalities and topics |
+| `runAll.ipynb` | Batch run across all personalities of that topic |
 | `runSingle.ipynb` | Run a single personality on a single topic |
 
 ---
