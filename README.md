@@ -20,18 +20,15 @@ Each round, the student agent chooses one of three actions:
 
 ### Student Agent — Exam Round
 
-Each round, the student agent chooses one of two actions:
-
 | Action | Steps |
 |--------|-------|
 | **Recall from Memory** | (1) Decide what to retrieve → (2) Retrieve the most relevant memory → (3) Use recalled memory to answer the question |
-| **Answer Directly** | Answer the question without memory retrieval |
 
 ### Teacher Agent — Learning Round
 
 When a student asks a question, the teacher agent:
-1. Processes the student's question
-2. Retrieves a relevant problem from the question bank
+1. Understand the student agent's personality
+2. Processes the student's question and Retrieves a relevant problem from the question bank
 3. Explains the problem (with answer) to the student
 
 ---
