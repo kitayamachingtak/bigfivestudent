@@ -138,6 +138,21 @@ Both **API mode** (e.g., GPT) and **local model** mode are supported and can be 
 
 ---
 
+## Citation
+
+If you use this work, please cite:
+```bibtex
+@misc{xiao2026personalitydrivenstudentagentbasedmodeling,
+      title={Personality-Driven Student Agent-Based Modeling in Mathematics Education: How Well Do Student Agents Align with Human Learners?}, 
+      author={Bushi Xiao and Qian Shen},
+      year={2026},
+      eprint={2603.21358},
+      archivePrefix={arXiv},
+      primaryClass={cs.MA},
+      url={https://arxiv.org/abs/2603.21358}, 
+}
+```
+
 ## License
 
 MIT License
